@@ -7,6 +7,7 @@ I created js.sh for a personal project because all of the similar tools I could 
 
 * Easily configurable for your environment with `config.sh`
 * Combines JS files in the order you specify in script_order.txt
+* Compresses them with Google's Closure Compiler
 * Splits JS files into <25kb chunks where possible (iPhones won't cache anything over 25kb)
 * Generates a PHP file with `script` tags that you can include where appropraite -- just write your JS, use js.sh, and don't worry about anything else.  If you don't like PHP it's simple to change the output.
 
