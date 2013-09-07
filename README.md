@@ -13,8 +13,13 @@ I created js.sh for a personal project because all of the similar tools I could 
 Usage
 -----
 1.  Set up your paths in `config.sh`
-2.  `cd` to the directory where `js.sh` resides
-3.  Run `js.sh -u yourname`
+2.  Create a `compiled` directory in your `js` folder if you choose to go with the default config
+3.  Create a `script_order.txt` file in your `js` directory and write the name of each script you want to include in the order in which you want to include it, separating each script by a space.  Example: 
+    ```
+    script.js anotherscript.js path/to/thirdscript.js
+    ```
+4.  `cd` to the directory where `js.sh` resides
+5.  Run `js.sh -u yourname`
 
 Dependencies
 ------------
