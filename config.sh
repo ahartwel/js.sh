@@ -20,4 +20,5 @@ path_to_js_compiled="${project_directory}/public/js/compiled"
 
 # This could also be an absolute URL
 # It's only used when outputting to js.php
-web_path_to_js="/github/js.sh/sample/public/js/compiled"	# Usually this will just be "/js/compiled"
+# Usually this will just be "/js/compiled"
+web_path_to_js="/github/js.sh/sample/public/js/compiled"	
