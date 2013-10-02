@@ -108,6 +108,15 @@ for ((i=0;i<cnt;i++)); do
             unset js_queue
             js_queue+=($tmp_js)
             filesize_min_total=$tmp_js_filesize
+
+            # If this is also the last loop, let's add this file
+            last_loop=$(expr $cnt - 1)
+            if (($i == $last_loop)); then
+                tmp_js_string=${js_queue[*]}
+                cat $tmp_js_string > "$path_to_js_compiled"/bwc.min.$num_compilations.js
+                echo "        - Combined into bwc.min.$num_compilations.js [4] :: $tmp_js_string"
+                num_compilations=$(expr $num_compilations + 1)
+            fi
         fi 
         
     else
