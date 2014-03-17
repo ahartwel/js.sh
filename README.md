@@ -24,7 +24,7 @@ Usage
 
 Dependencies
 ------------
-Google's [Closure Compiler](http://closure-compiler.googlecode.com/files/compiler-latest.zip), which requires Java.
+Google's [Closure Compiler](http://dl.google.com/closure-compiler/compiler-latest.zip), which requires Java.
 
 To Do
 -----
